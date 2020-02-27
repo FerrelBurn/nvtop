@@ -1,3 +1,17 @@
+ZAI Instructions:
+```
+sudo apt -yq install cmake libncurses5-dev libncursesw5-dev git
+git clone git@github.com:FerrelBurn/nvtop.git
+mkdir -p nvtop/build && cd nvtop/build
+cmake ..
+sudo make
+sudo make install
+```
+to run: 
+```
+$ nvtop
+```
+
 NVTOP
 =====
 
